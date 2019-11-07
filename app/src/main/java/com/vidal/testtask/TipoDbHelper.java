@@ -8,10 +8,10 @@ import android.util.Log;
 public class TipoDbHelper extends SQLiteOpenHelper {
 
 
-        private String TABLE_NAME="test_table";
-        private String FIELD_CODE1="response_field";
+        public String TABLE_NAME="test_table";
+        public String FIELD_CODE1="response_field";
 
-        private TipoDbHelper(Context ct, String nm, SQLiteDatabase.CursorFactory cf, int vs){
+        public TipoDbHelper(Context ct, String nm, SQLiteDatabase.CursorFactory cf, int vs){
             super(ct, nm, cf, vs);
         }
 
