@@ -7,7 +7,6 @@ import android.util.Log;
 
 public class TipoDbHelper extends SQLiteOpenHelper {
 
-
         public String TABLE_NAME="test_table";
         public String FIELD_CODE1="response_field";
 
@@ -27,6 +26,4 @@ public class TipoDbHelper extends SQLiteOpenHelper {
                     FIELD_CODE1  + " TEXT)";
             DB.execSQL(query);
         }
-
-
 }
